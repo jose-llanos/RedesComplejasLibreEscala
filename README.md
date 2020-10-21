@@ -6,7 +6,7 @@ Evaluar dinámicas de la población para la estrategia de computación evolutiva
 
 **Objetivo del proyecto**
 
-Desarrollar un sistema de evaluación para la estrategia evolutiva tradicional basada en redes complejas de tipo libre de escala, para guiar la interacción de los individuos con la población y ayudar a optimizar la solución final
+Desarrollar un sistema de evaluación para la estrategia evolutiva tradicional basada en redes complejas de tipo libre de escala, con el fin de guiar la interacción de los individuos con la población y ayudar a optimizar la solución final.
 
 **¿Cómo abordar el problema con redes?**
 
