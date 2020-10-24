@@ -34,6 +34,7 @@ rewiring = 0.3                      # Recombination rate [0,1]
 maxiter = 50                        # Max number of generations (maxiter)
 
 def main(cost_func, bounds, popsize, mutate, rewiring, maxiter):
+    # Se debe cambiar este línea por la de Barabasi...
     G = nx.generators.random_graphs.watts_strogatz_graph(popsize,3,rewiring)
     
     population = []
