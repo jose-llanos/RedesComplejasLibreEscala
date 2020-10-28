@@ -61,7 +61,7 @@ def createChild(individual1, individual2):
 def createChildren(breeders, number_of_child):
     nextPopulation = []
 
-    for i in range(len(breeders)/2):
+    for i in range(len(breeders)// 2):
         for j in range(number_of_child):
             nextPopulation.append(createChild(breeders[i], breeders[len(breeders) -1 -i]))
     return nextPopulation
@@ -154,8 +154,8 @@ else:
         promedio_temporal = sumatoria_temporal / numero_iteraciones
         promedios.append(promedio_temporal)
         
-    print "\n"
-    print "Promedios de las iteraciones"
+    print ("\n")
+    print ("Promedios de las iteraciones")
     for i in range(0,number_of_generation):
-        print "%.9f"%promedios[i]
+        print ("%.9f"%promedios[i])
     
